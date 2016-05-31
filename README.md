@@ -1,11 +1,11 @@
 # petanku
-A awesome JRPG based on the "pétanque"
+An awesome JRPG based on the "pétanque"
 
 # Brainstorming
 
 Petanque RPG : petanku
 
-Vue Pokémon
+Vue Pokémon, 2D de dessus + vue combats en première personne.
 
 LEs ennemis défient le joueur pour des tournois de pétanque.
 
