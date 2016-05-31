@@ -11,6 +11,7 @@ Les ennemis défient le joueur pour des tournois de pétanque.
 
 La vie est une jauge d'ego, remonte avec le pastis.
 Trop de pastis : alcoolisme = empoisonnement
+eau = poison.
 Possibilité de dosage de pastis
 
 L'histoire se passe en provence.
