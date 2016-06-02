@@ -1,0 +1,4 @@
+[Project]
+Name=petanku
+Manager=KDevCMakeManager
+VersionControl=kdevgit

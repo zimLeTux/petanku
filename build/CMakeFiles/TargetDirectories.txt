@@ -1,0 +1,7 @@
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/install.dir
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/list_install_components.dir
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/rebuild_cache.dir
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/petanku.dir
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/install/strip.dir
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/install/local.dir
+/home/simon/Programmes/CPP/petanku/petanku/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/petanku.dir/main.cpp.o  -o petanku -rdynamic 
