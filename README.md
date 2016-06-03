@@ -29,3 +29,11 @@ Les boules ont des âmes (anguille ou cygale). Grosse invocation.
 Brouillard de guerre autour du cochonet.
 
 Equipment : corde pour ramasser les boules, porte gobel Ricard, casquette 51, parrasol, ...
+
+
+# Conception
+
+Moteur graphique = wrapper pour allegro
+Moteur physique = gestion de la physique en match. Notifications de mise à jour de position au moteur global
+Moteur global = gestion du jeu, avec le mode match, le mode dialogue et le mode open world. Fonctionne avec le pattern observer. Possibilité d'ajouter un système d'achievements (si quelqu'un a le courage).
+Controler = classe (surcouche à allegro) pour la gestion des entrées (clavier/manette), gestion de la file d'évènements.

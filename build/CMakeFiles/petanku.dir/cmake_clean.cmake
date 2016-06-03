@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/petanku.dir/main.cpp.o"
+  "CMakeFiles/petanku.dir/physicsengine.cpp.o"
   "petanku.pdb"
   "petanku"
 )

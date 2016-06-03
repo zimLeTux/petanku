@@ -1,6 +1,6 @@
 /*
  * <one line to give the program's name and a brief idea of what it does.>
- * Copyright (C) 2016  Simon Larguier <simon.larguier@sfr.fr>
+ * Copyright (C) 2016  Simon Larguier <zimletux@outlook.fr>
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,3 +18,18 @@
  */
 
 #include "physicsengine.h"
+
+
+PhysicsEngine::PhysicsEngine()
+{
+}
+
+PhysicsEngine::~PhysicsEngine()
+{
+}
+
+bool PhysicsEngine::launch_ball(float strength, float theta, float phi, SPhysicsBall ball)
+{
+    
+    return true;
+}

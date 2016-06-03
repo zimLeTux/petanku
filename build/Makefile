@@ -194,6 +194,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/petanku.dir/build.make CMakeFiles/petanku.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+physicsengine.o: physicsengine.cpp.o
+
+.PHONY : physicsengine.o
+
+# target to build an object file
+physicsengine.cpp.o:
+	$(MAKE) -f CMakeFiles/petanku.dir/build.make CMakeFiles/petanku.dir/physicsengine.cpp.o
+.PHONY : physicsengine.cpp.o
+
+physicsengine.i: physicsengine.cpp.i
+
+.PHONY : physicsengine.i
+
+# target to preprocess a source file
+physicsengine.cpp.i:
+	$(MAKE) -f CMakeFiles/petanku.dir/build.make CMakeFiles/petanku.dir/physicsengine.cpp.i
+.PHONY : physicsengine.cpp.i
+
+physicsengine.s: physicsengine.cpp.s
+
+.PHONY : physicsengine.s
+
+# target to generate assembly for a file
+physicsengine.cpp.s:
+	$(MAKE) -f CMakeFiles/petanku.dir/build.make CMakeFiles/petanku.dir/physicsengine.cpp.s
+.PHONY : physicsengine.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +237,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... physicsengine.o"
+	@echo "... physicsengine.i"
+	@echo "... physicsengine.s"
 .PHONY : help
 
 

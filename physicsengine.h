@@ -1,6 +1,6 @@
 /*
  * <one line to give the program's name and a brief idea of what it does.>
- * Copyright (C) 2016  Simon Larguier <simon.larguier@sfr.fr>
+ * Copyright (C) 2016  Simon Larguier <zimletux@outlook.fr>
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,10 +20,13 @@
 #ifndef PHYSICSENGINE_H
 #define PHYSICSENGINE_H
 
+#include <vector>
+
 typedef struct s_position
 {
     float x;
     float y;
+    float z;
 }
 SPosition;
 
@@ -51,13 +54,17 @@ EGroundMaterial;
 class PhysicsEngine
 {
 private:
-    float           terrain_width_;
-    float           terrain_height_;
-    EGroundMaterial ground_type_;
-    SPhysicsBall*   positionned_balls_;
+    float                     terrain_width_;
+    float                     terrain_height_;
+    EGroundMaterial           ground_type_;
+    std::vector<SPhysicsBall> positionned_balls_;
     
 public:
-    int launch_ball(float strength, float theta, float phi, SPhysicsBall ball);
+    PhysicsEngine();
+    ~PhysicsEngine();
+    bool launch_ball(float strength, float theta, float phi, SPhysicsBall ball);
+    
+    SPosition step();
     
 }
 ;

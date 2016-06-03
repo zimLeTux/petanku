@@ -3,5 +3,10 @@
   "directory": "/home/simon/Programmes/CPP/petanku/build",
   "command": "/usr/bin/c++     -g   -o CMakeFiles/petanku.dir/main.cpp.o -c /home/simon/Programmes/CPP/petanku/main.cpp",
   "file": "/home/simon/Programmes/CPP/petanku/main.cpp"
+},
+{
+  "directory": "/home/simon/Programmes/CPP/petanku/build",
+  "command": "/usr/bin/c++     -g   -o CMakeFiles/petanku.dir/physicsengine.cpp.o -c /home/simon/Programmes/CPP/petanku/physicsengine.cpp",
+  "file": "/home/simon/Programmes/CPP/petanku/physicsengine.cpp"
 }
 ]
