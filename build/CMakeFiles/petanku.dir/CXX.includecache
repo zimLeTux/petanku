@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/simon/Programmes/CPP/petanku/main.cpp
+iostream
+-
+
+/home/simon/Programmes/CPP/petanku/physicsengine.cpp
+physicsengine.h
+/home/simon/Programmes/CPP/petanku/physicsengine.h
+
+/home/simon/Programmes/CPP/petanku/physicsengine.h
+vector
+-
+
